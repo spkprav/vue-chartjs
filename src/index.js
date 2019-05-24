@@ -1,6 +1,8 @@
 import mixins from './mixins/index.js'
 
 import {
+  Candlestick,
+  Ohlc,
   Bar,
   HorizontalBar,
   Doughnut,
@@ -14,6 +16,8 @@ import {
 } from './BaseCharts'
 
 const VueCharts = {
+  Candlestick,
+  Ohlc,
   Bar,
   HorizontalBar,
   Doughnut,
@@ -32,6 +36,8 @@ export default VueCharts
 
 export {
   VueCharts,
+  Candlestick,
+  Ohlc,
   Bar,
   HorizontalBar,
   Doughnut,
